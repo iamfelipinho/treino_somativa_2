@@ -5,7 +5,7 @@
 
 <template>
     <div>
-        <img :src="'http://localhost:8000/'+filmesResult.banner" alt="">
+        <img :src="'http://localhost:8000/'+filmesResult.banner" alt=""><!--puxa imagem por id do backend junto do banner associado ao id-->
         <h2>{{ filmesResult.nome }}</h2>
         <br>
         <h3>{{ filmesResult.descricao }}</h3>
