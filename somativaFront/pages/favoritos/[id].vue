@@ -42,7 +42,7 @@ const sendForm = async () =>{
     <button @click="setShowForm">Adicionar Favoritos</button>
 
     <section v-if="showForm === true"> 
-        <div><label for="">Filme</label><input type="number" v-model="FkFilme"></div>
+        <div><label for="">Filme</label><input type="number" v-model="FkFilme"></div><!--nesse caso seria para selecionar um filme especifico ao em vez de criar um novo-->
         <button @click="sendForm">Salvar Favoritos</button>
     </section>
     </div>
